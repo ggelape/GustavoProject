@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+    </style>
+
+    <style name="SplashActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/splashBackground</item>
+    </style>
+
+    <style name="PasswordLockActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/passwordLockBackground</item>
+    </style>
+
+    <style name="DashboardActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/dashboardBackground</item>
+    </style>
+
+    <style name="SeriesDetailsActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/seriesDetailsBackground</item>
+    </style>
+
+    <style name="FavoriteListActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/favoriteListBackground</item>
+    </style>
+
+    <style name="EpisodeDetailsActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/episodeDetailsBackground</item>
+    </style>
+
+    <style name="PasswordProtectActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/passwordProtectBackground</item>
+    </style>
+
+    <style name="PersonDetailsActivity" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/personDetailsBackground</item>
+    </style>
+
+    <style name="TextRegular">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextMedium">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextSemiBold">
+        <item name="android:fontFamily">@font/rubik_semibold</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextBold">
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="BodyTextStyle" parent="TextRegular">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <style name="DefaultButton" parent="TextBold">
+        <item name="android:layout_height">@dimen/default_button_height</item>
+        <item name="android:textSize">@dimen/default_button_text_size</item>
+        <item name="android:paddingEnd">@dimen/default_button_padding</item>
+        <item name="android:paddingStart">@dimen/default_button_padding</item>
+    </style>
+
+    <style name="DarkButton" parent="DefaultButton">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:background">@drawable/button_dark_bg</item>
+    </style>
+
+    <style name="ActionBarStyle">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+
+</resources>

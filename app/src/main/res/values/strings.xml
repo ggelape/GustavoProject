@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TVMaze</string>
+    <string name="search_hint">Search</string>
+    <string name="secret_key_name">biometric_encryption_key_name</string>
+    <string name="search_results">Search results for: %s</string>
+    <string name="prompt_info_title">Use Touch ID to lock app</string>
+    <string name="prompt_info_sign_in_subtitle">Confirm Fingerprint to unlock</string>
+    <string name="prompt_info_use_app_password">Cancel</string>
+    <string name="prompt_info_confirm_password_subtitle">Confirm Fingerprint</string>
+    <string name="remove_password_dialog_title">Would you like to remove the password protection?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="favorite_series">Favorite Series</string>
+    <string name="unlock_message">To unlock the app, type your password</string>
+    <string name="unlock">Unlock</string>
+    <string name="use_fingerprint">Would you like to use fingerprint?</string>
+    <string name="password_lock">Password Lock</string>
+    <string name="type_password_to_lock">Type a password to lock the application.</string>
+    <string name="enable_lock">Enable Lock</string>
+    <string name="appears_in">Appears In</string>
+    <string name="search_shows">Search Shows</string>
+    <string name="search_person">Search Person</string>
+    <string name="favorites">Favorites</string>
+    <string name="lock">Lock</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22978c</color>
+    <color name="colorPrimaryDark">#00685f</color>
+    <color name="colorAccent">#5ec8bc</color>
+
+    <!-- General !-->
+    <color name="white">#FFFFFF</color>
+    <color name="grayLight">#f5f5f6</color>
+
+    <color name="textColor">#5e5e5e</color>
+    <color name="actionBarStrokeColor">#10000000</color>
+    
+    <color name="darkButtonStrokeColor">#979797</color>
+
+    <!-- Background Colors !-->
+    <color name="splashBackground">@color/grayLight</color>
+    <color name="searchBackground">@color/grayLight</color>
+    <color name="dashboardBackground">@color/grayLight</color>
+    <color name="seriesDetailsBackground">@color/grayLight</color>
+    <color name="favoriteListBackground">@color/grayLight</color>
+    <color name="episodeDetailsBackground">@color/grayLight</color>
+    <color name="personDetailsBackground">@color/grayLight</color>
+    <color name="passwordLockBackground">@color/grayLight</color>
+    <color name="passwordProtectBackground">@color/grayLight</color>
+
+</resources>
